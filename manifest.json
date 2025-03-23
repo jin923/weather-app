@@ -1,12 +1,13 @@
 {
   "name": "Weather App",
   "short_name": "Weather",
-  "description": "A simple weather detection app",
+  "description": "A Progressive Web App for real-time weather updates.",
   "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2196F3",
   "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -33,14 +34,14 @@
       "type": "image/png"
     }
   ],
-  "categories": ["weather", "utilities", "productivity"],
-  "iarc_rating_id": "your_iarc_id",
+  "categories": ["weather", "utilities"],
+  "iarc_rating_id": "e12345",
   "lang": "en",
-  "scope": "/",
   "app_id": "com.example.weatherapp",
   "launch_handler": {
-    "client_mode": "auto"
+    "client_mode": "navigate-existing"
   },
-  "related_applications": [],
-  "prefer_related_applications": false
+  "scope_extensions": [],
+  "prefer_related_applications": false,
+  "related_applications": []
 }
