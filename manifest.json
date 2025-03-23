@@ -37,11 +37,12 @@
   "categories": ["weather", "utilities"],
   "iarc_rating_id": "e12345",
   "lang": "en",
+  "dir": "ltr",
   "app_id": "com.example.weatherapp",
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
-  "scope_extensions": [],
+  "scope_extensions": [{}],
   "prefer_related_applications": false,
   "related_applications": []
 }
