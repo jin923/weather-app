@@ -36,9 +36,9 @@
   ],
   "categories": ["weather", "utilities"],
   "iarc_rating_id": "e12345",
-  "lang": "en",
   "dir": "ltr",
-  "app_id": "com.yourdomain.weatherapp",
+  "lang": "en-US",
+  "app_id": "123e4567-e89b-12d3-a456-426614174000",
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
