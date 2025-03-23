@@ -1,41 +1,42 @@
 {
-  "name": "Weather App",
-  "short_name": "Weather",
-  "description": "A Progressive Web App for real-time weather updates.",
+  "name": "Weather Detection App",
+  "short_name": "WeatherApp",
+  "description": "A weather detection app providing real-time weather updates.",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#2196f3",
+  "theme_color": "#007BFF",
   "icons": [
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
+      "purpose": "any"
     }
   ],
   "screenshots": [
     {
-      "src": "/screenshots/screenshot1.png",
-      "sizes": "1080x1920",
-      "type": "image/png"
-    },
-    {
-      "src": "/screenshots/screenshot2.png",
+      "src": "screenshots/screenshot1.png",
       "sizes": "1080x1920",
       "type": "image/png"
     }
   ],
-  "categories": ["weather", "utilities"],
-  "iarc_rating_id": "e12345",
-  "dir": "ltr",
-  "lang": "en-US",
-  "app_id": "123e4567-e89b-12d3-a456-426614174000",
+  "app_id": "com.weatherapp.pwa",
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
-  "scope_extensions": [{}],
+  "categories": ["weather", "utilities"],
+  "iarc_rating_id": "e6ab4c6f-1a6d-456f-8f99-1f6c9b4b1e8d",
+  "dir": "ltr",
+  "lang": "en",
   "prefer_related_applications": false,
   "related_applications": []
 }
