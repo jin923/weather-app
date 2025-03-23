@@ -38,7 +38,7 @@
   "iarc_rating_id": "e12345",
   "lang": "en",
   "dir": "ltr",
-  "app_id": "com.example.weatherapp",
+  "app_id": "com.yourdomain.weatherapp",
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
