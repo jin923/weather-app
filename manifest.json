@@ -1,16 +1,37 @@
 {
-    "name": "Weather App",
-    "short_name": "Weather",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#2196F3",
-    "icons": [
-      {
-        "src": "icon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
+  "name": "Weather App",
+  "short_name": "Weather",
+  "description": "A weather detection app that provides real-time weather updates.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    }
+  ],
+  "app_id": "com.example.weatherapp",
+  "categories": ["weather", "utilities"],
+  "launch_handler": {
+    "client_mode": "auto"
   }
+}
+
   
