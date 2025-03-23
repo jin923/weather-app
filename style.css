@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(270deg, #87CEFA, #00BFFF, #32CD32, #20B2AA, #FF69B4, #FFD700);
+    background-size: 500% 500%; /* Adjusted to fit all colors */
+    animation: gradientAnimation 4.5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    20% { background-position: 20% 50%; }
+    40% { background-position: 60% 40%; }
+    60% { background-position: 50% 50%; }
+    80% { background-position: 80% 50%; }
+    100% { background-position: 70% 50%; }
+}
+/* Weather app container with glass effect */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); /* Glass effect */
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif; /* Change the font */
+    color: #000000; /* Keep it white or change to another soft color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+/* Search box */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    padding:0px;
+    border : none;
+}
+
+/* Input field */
+input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    transition:0.3s;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+/* Search button */
+button {
+    background: #ff5277;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #ff006a;
+    transform: scale(1.1);
+}
+
+/* Search icon */
+.fas {
+    font-size: 16px;
+}
+
+/* Weather info */
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Weather icon */
+#weather-info img {
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin: 0 auto;
+}
+
+/* Extra weather info: Humidity & Wind Speed */
+.extra-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.extra-info .info-box {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px; /* Space between icon and text */
+}
+
+.extra-info i {
+    font-size: 50px; /* Big icons */
+    color: yellow;
+}
+
+.extra-info .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-info .text span {
+    font-size: 24px; /* Bigger value size */
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 50px; /* Increase as needed */
+    font-weight: bold;
+    margin-top: -15px;
+}
