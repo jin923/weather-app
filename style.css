@@ -20,10 +20,10 @@ body {
 @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
     20% { background-position: 20% 50%; }
-    40% { background-position: 60% 40%; }
-    70% { background-position: 50% 50%; }
-    40% { background-position: 80% 50%; }
-    90% { background-position: 70% 50%; }
+    40% { background-position: 40% 50%; }
+    10% { background-position: 10% 50%; }
+    20% { background-position: 20% 50%; }
+    40% { background-position: 40% 50%; }
 }
 /* Weather app container with glass effect */
 .container {
