@@ -2,7 +2,7 @@
   "name": "Weather Detection App",
   "short_name": "WeatherApp",
   "description": "A weather detection app providing real-time weather updates.",
-  "start_url": "/index.html",
+  "start_url": "/weather-app/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
