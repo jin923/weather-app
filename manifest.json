@@ -10,12 +10,12 @@
   "theme_color": "#007BFF",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/jin923/weather-app/main/icons/meteorology.png",
+      "src": "https://github.com/jin923/weather-app/blob/main/icons/meteorology.png?raw=true",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://raw.githubusercontent.com/jin923/weather-app/main/icons/meteorology.png",
+      "src": "https://github.com/jin923/weather-app/blob/main/icons/meteorology.png?raw=true",
       "sizes": "512x512",
       "type": "image/png"
     }
